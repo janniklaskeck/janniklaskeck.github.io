@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "My Site",
+    "name": "Jan-Niklas Keck - Portfolio",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
@@ -57,7 +57,9 @@
     "versionFirst": "4.7.6",
     "uniqCompNum": 24,
     "versionPublish": "4.8.5",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "favicon": "@PROJECT_PATH@/assets/images/favicon-256-128x128.png",
+    "noImageResize": ""
   },
   "pages": {
     "index.html": {
