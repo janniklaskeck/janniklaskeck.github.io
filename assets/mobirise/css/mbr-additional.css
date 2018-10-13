@@ -1790,13 +1790,21 @@ body {
   background-image: url("../../../assets/images/schacht1-1920x1080.jpg");
 }
 .cid-r6mIwEaKaV {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 60px;
+  padding-bottom: 15px;
   background-color: #232323;
 }
 .cid-r6mIwEaKaV .mbr-text,
 .cid-r6mIwEaKaV .mbr-section-btn P {
   text-align: left;
+  color: #cc2952;
+}
+.cid-r6mIwEaKaV H2 {
+  color: #ffffff;
+}
+.cid-r6mIwEaKaV .mbr-text,
+.cid-r6mIwEaKaV .mbr-section-btn {
+  color: #ffffff;
 }
 .cid-r6cn50HuvV .navbar {
   padding: .5rem 0;
