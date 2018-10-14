@@ -2662,6 +2662,88 @@ body {
 .cid-r6cn50HuvV .dropdown-item:hover {
   color: #c1c1c1 !important;
 }
+.cid-r6sKjmrgkW {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-image: url("../../../assets/images/wtc-2-1402x789.png");
+}
+.cid-r6sKk1i22l {
+  padding-top: 60px;
+  padding-bottom: 15px;
+  background-color: #232323;
+}
+.cid-r6sKk1i22l .mbr-text,
+.cid-r6sKk1i22l .mbr-section-btn P {
+  text-align: left;
+  color: #cc2952;
+}
+.cid-r6sKk1i22l H2 {
+  color: #ffffff;
+}
+.cid-r6sKk1i22l .mbr-text,
+.cid-r6sKk1i22l .mbr-section-btn {
+  color: #ffffff;
+}
+.cid-r6sKmiBBX1 {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #767676;
+}
+.cid-r6sKmiBBX1 .mbr-slider .carousel-control {
+  background: #1b1b1b;
+}
+.cid-r6sKmiBBX1 .mbr-slider .carousel-control-prev {
+  left: 0;
+  margin-left: 2.5rem;
+}
+.cid-r6sKmiBBX1 .mbr-slider .carousel-control-next {
+  right: 0;
+  margin-right: 2.5rem;
+}
+.cid-r6sKmiBBX1 .mbr-slider .modal-body .close {
+  background: #1b1b1b;
+}
+.cid-r6sKmiBBX1 .mbr-gallery-item > div::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #554346;
+  opacity: 0;
+  -webkit-transition: 0.2s opacity ease-in-out;
+  transition: 0.2s opacity ease-in-out;
+}
+.cid-r6sKmiBBX1 .mbr-gallery-item > div:hover .mbr-gallery-title::before {
+  background: transparent !important;
+}
+.cid-r6sKmiBBX1 .mbr-gallery-item > div:hover:before {
+  opacity: 0.7 !important;
+}
+.cid-r6sKmiBBX1 .mbr-gallery-title {
+  font-size: .9em;
+  position: absolute;
+  display: block;
+  width: 100%;
+  bottom: 0;
+  padding: 1rem;
+  color: #fff;
+  z-index: 2;
+}
+.cid-r6sKmiBBX1 .mbr-gallery-title:before {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+  background: #554346 !important;
+  opacity: 0.7;
+  -webkit-transition: 0.2s background ease-in-out;
+  transition: 0.2s background ease-in-out;
+}
 .cid-r6cdQDsCET {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -3129,6 +3211,88 @@ body {
 .cid-r6cn50HuvV .dropdown-item:hover {
   color: #c1c1c1 !important;
 }
+.cid-r6sKXDQsUd {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-image: url("../../../assets/images/plakatmayhemheroes-kopie-2000x1169.png");
+}
+.cid-r6sKY5yPfO {
+  padding-top: 60px;
+  padding-bottom: 15px;
+  background-color: #232323;
+}
+.cid-r6sKY5yPfO .mbr-text,
+.cid-r6sKY5yPfO .mbr-section-btn P {
+  text-align: left;
+  color: #cc2952;
+}
+.cid-r6sKY5yPfO H2 {
+  color: #ffffff;
+}
+.cid-r6sKY5yPfO .mbr-text,
+.cid-r6sKY5yPfO .mbr-section-btn {
+  color: #ffffff;
+}
+.cid-r6sKYwexjT {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #767676;
+}
+.cid-r6sKYwexjT .mbr-slider .carousel-control {
+  background: #1b1b1b;
+}
+.cid-r6sKYwexjT .mbr-slider .carousel-control-prev {
+  left: 0;
+  margin-left: 2.5rem;
+}
+.cid-r6sKYwexjT .mbr-slider .carousel-control-next {
+  right: 0;
+  margin-right: 2.5rem;
+}
+.cid-r6sKYwexjT .mbr-slider .modal-body .close {
+  background: #1b1b1b;
+}
+.cid-r6sKYwexjT .mbr-gallery-item > div::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #554346;
+  opacity: 0;
+  -webkit-transition: 0.2s opacity ease-in-out;
+  transition: 0.2s opacity ease-in-out;
+}
+.cid-r6sKYwexjT .mbr-gallery-item > div:hover .mbr-gallery-title::before {
+  background: transparent !important;
+}
+.cid-r6sKYwexjT .mbr-gallery-item > div:hover:before {
+  opacity: 0.7 !important;
+}
+.cid-r6sKYwexjT .mbr-gallery-title {
+  font-size: .9em;
+  position: absolute;
+  display: block;
+  width: 100%;
+  bottom: 0;
+  padding: 1rem;
+  color: #fff;
+  z-index: 2;
+}
+.cid-r6sKYwexjT .mbr-gallery-title:before {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+  background: #554346 !important;
+  opacity: 0.7;
+  -webkit-transition: 0.2s background ease-in-out;
+  transition: 0.2s background ease-in-out;
+}
 .cid-r6cdQDsCET {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -3595,6 +3759,88 @@ body {
 .cid-r6cn50HuvV .nav-link:hover,
 .cid-r6cn50HuvV .dropdown-item:hover {
   color: #c1c1c1 !important;
+}
+.cid-r6sLbkpMLq {
+  padding-top: 135px;
+  padding-bottom: 135px;
+  background-image: url("../../../assets/images/lsgui-kopie-1472x543.png");
+}
+.cid-r6sLc2I0se {
+  padding-top: 60px;
+  padding-bottom: 15px;
+  background-color: #232323;
+}
+.cid-r6sLc2I0se .mbr-text,
+.cid-r6sLc2I0se .mbr-section-btn P {
+  text-align: left;
+  color: #cc2952;
+}
+.cid-r6sLc2I0se H2 {
+  color: #ffffff;
+}
+.cid-r6sLc2I0se .mbr-text,
+.cid-r6sLc2I0se .mbr-section-btn {
+  color: #ffffff;
+}
+.cid-r6sLcxjgvl {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #767676;
+}
+.cid-r6sLcxjgvl .mbr-slider .carousel-control {
+  background: #1b1b1b;
+}
+.cid-r6sLcxjgvl .mbr-slider .carousel-control-prev {
+  left: 0;
+  margin-left: 2.5rem;
+}
+.cid-r6sLcxjgvl .mbr-slider .carousel-control-next {
+  right: 0;
+  margin-right: 2.5rem;
+}
+.cid-r6sLcxjgvl .mbr-slider .modal-body .close {
+  background: #1b1b1b;
+}
+.cid-r6sLcxjgvl .mbr-gallery-item > div::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #554346;
+  opacity: 0;
+  -webkit-transition: 0.2s opacity ease-in-out;
+  transition: 0.2s opacity ease-in-out;
+}
+.cid-r6sLcxjgvl .mbr-gallery-item > div:hover .mbr-gallery-title::before {
+  background: transparent !important;
+}
+.cid-r6sLcxjgvl .mbr-gallery-item > div:hover:before {
+  opacity: 0.6 !important;
+}
+.cid-r6sLcxjgvl .mbr-gallery-title {
+  font-size: .9em;
+  position: absolute;
+  display: block;
+  width: 100%;
+  bottom: 0;
+  padding: 1rem;
+  color: #fff;
+  z-index: 2;
+}
+.cid-r6sLcxjgvl .mbr-gallery-title:before {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+  background: #554346 !important;
+  opacity: 0.6;
+  -webkit-transition: 0.2s background ease-in-out;
+  transition: 0.2s background ease-in-out;
 }
 .cid-r6cdQDsCET {
   padding-top: 30px;
