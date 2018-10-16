@@ -3233,26 +3233,26 @@ body {
 .cid-r6sKY5yPfO .mbr-section-btn {
   color: #ffffff;
 }
-.cid-r6sKYwexjT {
-  padding-top: 90px;
-  padding-bottom: 90px;
+.cid-r6FFTO69u6 {
+  padding-top: 0px;
+  padding-bottom: 0px;
   background-color: #767676;
 }
-.cid-r6sKYwexjT .mbr-slider .carousel-control {
+.cid-r6FFTO69u6 .mbr-slider .carousel-control {
   background: #1b1b1b;
 }
-.cid-r6sKYwexjT .mbr-slider .carousel-control-prev {
+.cid-r6FFTO69u6 .mbr-slider .carousel-control-prev {
   left: 0;
   margin-left: 2.5rem;
 }
-.cid-r6sKYwexjT .mbr-slider .carousel-control-next {
+.cid-r6FFTO69u6 .mbr-slider .carousel-control-next {
   right: 0;
   margin-right: 2.5rem;
 }
-.cid-r6sKYwexjT .mbr-slider .modal-body .close {
+.cid-r6FFTO69u6 .mbr-slider .modal-body .close {
   background: #1b1b1b;
 }
-.cid-r6sKYwexjT .mbr-gallery-item > div::before {
+.cid-r6FFTO69u6 .mbr-gallery-item > div::before {
   content: '';
   position: absolute;
   left: 0;
@@ -3263,14 +3263,15 @@ body {
   opacity: 0;
   -webkit-transition: 0.2s opacity ease-in-out;
   transition: 0.2s opacity ease-in-out;
+  background: linear-gradient(to left, #554346, #45505b) !important;
 }
-.cid-r6sKYwexjT .mbr-gallery-item > div:hover .mbr-gallery-title::before {
+.cid-r6FFTO69u6 .mbr-gallery-item > div:hover .mbr-gallery-title::before {
   background: transparent !important;
 }
-.cid-r6sKYwexjT .mbr-gallery-item > div:hover:before {
+.cid-r6FFTO69u6 .mbr-gallery-item > div:hover:before {
   opacity: 0.7 !important;
 }
-.cid-r6sKYwexjT .mbr-gallery-title {
+.cid-r6FFTO69u6 .mbr-gallery-title {
   font-size: .9em;
   position: absolute;
   display: block;
@@ -3280,7 +3281,7 @@ body {
   color: #fff;
   z-index: 2;
 }
-.cid-r6sKYwexjT .mbr-gallery-title:before {
+.cid-r6FFTO69u6 .mbr-gallery-title:before {
   content: " ";
   width: 100%;
   height: 100%;
@@ -3292,6 +3293,7 @@ body {
   opacity: 0.7;
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
+  background: linear-gradient(to left, #554346, #45505b) !important;
 }
 .cid-r6cdQDsCET {
   padding-top: 30px;
@@ -3782,26 +3784,26 @@ body {
 .cid-r6sLc2I0se .mbr-section-btn {
   color: #ffffff;
 }
-.cid-r6sLcxjgvl {
-  padding-top: 90px;
-  padding-bottom: 90px;
+.cid-r6FGtlb89X {
+  padding-top: 0px;
+  padding-bottom: 0px;
   background-color: #767676;
 }
-.cid-r6sLcxjgvl .mbr-slider .carousel-control {
+.cid-r6FGtlb89X .mbr-slider .carousel-control {
   background: #1b1b1b;
 }
-.cid-r6sLcxjgvl .mbr-slider .carousel-control-prev {
+.cid-r6FGtlb89X .mbr-slider .carousel-control-prev {
   left: 0;
   margin-left: 2.5rem;
 }
-.cid-r6sLcxjgvl .mbr-slider .carousel-control-next {
+.cid-r6FGtlb89X .mbr-slider .carousel-control-next {
   right: 0;
   margin-right: 2.5rem;
 }
-.cid-r6sLcxjgvl .mbr-slider .modal-body .close {
+.cid-r6FGtlb89X .mbr-slider .modal-body .close {
   background: #1b1b1b;
 }
-.cid-r6sLcxjgvl .mbr-gallery-item > div::before {
+.cid-r6FGtlb89X .mbr-gallery-item > div::before {
   content: '';
   position: absolute;
   left: 0;
@@ -3813,13 +3815,13 @@ body {
   -webkit-transition: 0.2s opacity ease-in-out;
   transition: 0.2s opacity ease-in-out;
 }
-.cid-r6sLcxjgvl .mbr-gallery-item > div:hover .mbr-gallery-title::before {
+.cid-r6FGtlb89X .mbr-gallery-item > div:hover .mbr-gallery-title::before {
   background: transparent !important;
 }
-.cid-r6sLcxjgvl .mbr-gallery-item > div:hover:before {
-  opacity: 0.6 !important;
+.cid-r6FGtlb89X .mbr-gallery-item > div:hover:before {
+  opacity: 0.7 !important;
 }
-.cid-r6sLcxjgvl .mbr-gallery-title {
+.cid-r6FGtlb89X .mbr-gallery-title {
   font-size: .9em;
   position: absolute;
   display: block;
@@ -3829,7 +3831,7 @@ body {
   color: #fff;
   z-index: 2;
 }
-.cid-r6sLcxjgvl .mbr-gallery-title:before {
+.cid-r6FGtlb89X .mbr-gallery-title:before {
   content: " ";
   width: 100%;
   height: 100%;
@@ -3838,7 +3840,7 @@ body {
   z-index: -1;
   position: absolute;
   background: #554346 !important;
-  opacity: 0.6;
+  opacity: 0.7;
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
 }
