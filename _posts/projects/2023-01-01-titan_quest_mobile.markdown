@@ -8,7 +8,7 @@ categories: project professional
 website: https://handy-games.com/en/games/titan-quest/
 websitegoogle: https://play.google.com/store/apps/details?id=com.hg.titanquestedition&hl=en
 websiteapple: https://apps.apple.com/us/app/titan-quest-legendary-edition/id1537060891
-tools:  [Custom Engine(C++, C), Visual Studio, SVN, Jira/Confluence]
+tools:  [Custom Engine(C++, C), Visual Studio, SVN]
 permalink: "/:title/"
 #imgpath: "/assets/img/titan_quest_mobile/"
 videopath: "/assets/video/TitanQuestLegendaryEdition.mp4"

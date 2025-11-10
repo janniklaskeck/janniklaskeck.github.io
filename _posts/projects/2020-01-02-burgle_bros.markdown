@@ -5,7 +5,7 @@ thumbnail: "/assets/img/burgle_bros/cover.png"
 date:   2025-10-22 16:59:24 +0200
 websitegithub: https://github.com/janniklaskeck/BurgleBros-PC
 categories: project private
-tools:  [Unreal Engine 4, Visual Studio, Jira/Confluence]
+tools:  [Unreal Engine 4, Visual Studio]
 permalink: "/:title/"
 imgpath: "/assets/img/burgle_bros/"
 videopath: "/assets/video/BurgleBros.mp4"

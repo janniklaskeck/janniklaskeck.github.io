@@ -8,7 +8,7 @@ categories: project professional
 website: https://handy-games.com/en/games/wreckfest/
 websitegoogle: https://play.google.com/store/apps/details?id=com.hg.wreckfest&hl=en
 websiteapple: https://apps.apple.com/us/app/wreckfest/id1592505377
-tools:  [Custom Engine(C++), Visual Studio, Perforce, Jira/Confluence]
+tools:  [Custom Engine(C++), Visual Studio, Perforce]
 permalink: "/:title/"
 #imgpath: "/assets/img/wreckfest_mobile/"
 videopath: "/assets/video/TitanQuestLegendaryEdition.mp4"
