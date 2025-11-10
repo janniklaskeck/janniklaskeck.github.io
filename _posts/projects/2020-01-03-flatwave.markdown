@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Flatwave"
+thumbnail: "/assets/img/flatwave/cover.png"
+date:   2025-10-22 16:59:24 +0200
+categories: project private
+tools:  [Unreal Engine 4, Visual Studio, Blender, Gimp, Audacity, hacknPlan]
+permalink: "/:title/"
+imgpath: "/assets/img/flatwave"
+videopath: "/assets/video/FlatWave.mp4"
+personal: true
+---
+FlatWave is a simple and short FPS I developed during one month as an exercise.
+
+It includes three different weapons with two fire modes each, three different enemy types and one short level.
+
+Most of the assets used were created by me, with the exceptions of sound/music, some textures and the font.
+I used hacknPlan to organize my work and plan possible game features.
+Most of the gameplay was programmed in C++, with UI and some minor functions being done in Blueprints.
+
+Below you can see some screenshots as well as a short video of a playthrough.

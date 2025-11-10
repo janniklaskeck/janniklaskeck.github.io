@@ -1,0 +1,46 @@
+---
+layout: post
+title:  "Schacht (Astral Tracks)"
+thumbnail: "/assets/img/schacht/cover.jpg"
+date:   2025-10-22 16:59:24 +0200
+categories: project university
+websitesteam: https://store.steampowered.com/app/2190380/Astral_Tracks/
+tools:  [Unreal Engine 4, Visual Studio, Jira/Confluence]
+permalink: "/:title/"
+imgpath: "/assets/img/schacht/"
+videopath: "/assets/video/Schacht.mp4"
+personal: false
+---
+<b>Note: The original release on steam is no longer available(I'm not 100% sure why). 
+It was however developed further by some of the original development team and released as Astral Tracks(which I linked above).
+While it received some significant upgrades, the core gameplay loop has not changed much.</b>
+
+Schacht is a competitive 3D platformer racing game. Run on walls, swing, slide and dash to beat the levels as fast as possible. Compare your highscores with players from all around the world or challenge your friends in the local splitscreen multiplayer!
+
+Schacht originally was created over the course of three semesters by students in a game project course. Over 30 students participated in creating this game almost wholly on their own.
+
+After the release on Steam, the game was further developed, polished and ported to the Playstation 4 by a few core members of the original team.
+
+I participated in the engineering department of this project twice, in the first and third semester.
+
+My tasks included:
+
+First Semester:
+
+- Prototype inital player abilities, especially Grappling and Dashing
+    - Grappling: Attaching and swinging from specific locations in the game world
+    - Dashing: A quick, lateral movement forward to reach platforms and/or increase the overall speed
+- Create initial UI elements, mainly used in the menus
+
+Third Semester:
+
+- Character Accessory System (+ Menu)
+    - Configure the attachment of visual accessoires onto the player character
+- Rebindable Input System (+ Menu)
+- Database for all level assets used in the procedural generation
+    - Consists of assets containing meta data about all level segments
+    - Small engine tool to assist in the creation and maintenance of the database
+- Many small tasks ranging from bug fixing to minor game system improvements
+
+This was my first project with the Unreal Engine 4, so I started out with using Blueprints but later transitioned to using C++ (except for UI related tasks).
+I also gained valuable experience in using Confluence and JIRA for documenting and organizing our whole team, as well as using Git for versioning.

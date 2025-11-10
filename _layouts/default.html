@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+  <head>
+    {% include head.html %}
+  </head>
+  <body class="{% if page.layout != 'home' %}d-flex flex-column vh-100{% endif %}">
+    {% include header.html %}
+
+    <main class="{% if page.layout != 'home' %} mt-5 flex-grow-1 {% endif %}">
+      {{ content }}
+    </main>
+
+    {% include footer.html %}
+  </body>
+</html>

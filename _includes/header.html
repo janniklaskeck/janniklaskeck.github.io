@@ -1,0 +1,54 @@
+<!--{% if page.layout != 'default' %}-->
+  <header class="bg-body-tertiary py-2 border-bottom fixed-top">
+    <nav class="container navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold text-primary" href="/">{{ site.title }}</a>
+
+        <ul class="list-unstyled d-flex flex-wrap justify-content-center gap-3 ">
+          <li>
+            <a class="text-light bg-dark shadow rounded p-2" href="{{ site.social_link.linkedin }}">
+              <i class="bi bi-linkedin me-2"></i>
+              {{ site.social_username.linkedin }}
+            </a>
+          </li>
+          <li>
+            <a class="text-light bg-dark shadow rounded p-2" href="{{ site.social_link.github }}">
+              <i class="bi bi-github me-2"></i>
+              {{ site.social_username.github}}
+            </a>
+          </li>
+          <li>
+            <a class="text-light bg-dark shadow rounded p-2" href="mailto:{{ site.social_link.email }}" target="_blank">
+              <i class="bi bi-envelope me-2"></i>
+              {{ site.social_username.email }}
+            </a>
+          </li>
+        </ul>
+<!--
+          {% if page.layout == "home" %}
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Profile</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#section-posts">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#section-social">Social</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/about/">About</a>
+                  </li>
+              </ul>
+            </div>
+          {% endif %}
+-->
+        </div>
+    </nav>
+  </header>
+<!--{% endif %}-->

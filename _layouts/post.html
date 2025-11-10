@@ -1,0 +1,111 @@
+---
+layout: default
+---
+
+<style media="screen">
+  img,video {max-height: 720px;}
+</style>
+
+<div class="container mt-5">
+  <h1>{{ page.title }}</h1>
+  <!--<p class="m-1 text-secondary">{{ page.date }}</p>-->
+
+  {% if page.releasedate %}
+    <div class="my-2">
+      <p class="m-1 text-secondary">Release date: {{ page.releasedate }}</p>
+    </div>
+  {% endif %}
+  <div class="d-flex" style="gap: 1em">
+  {% if page.website %}
+    <div class="my-2">
+      <a href="{{ page.website }}">Website</a> <i class="bi bi-link"></i>
+    </div>
+  {% endif %}
+
+   {% if page.websitesteam %}
+    <div class="my-2">
+      <img src="{{ site.steamicon }}" alt="Steam" width="20" height="20"> <a href="{{ page.websitesteam }}">Steam</a> <i class="bi bi-link"></i>
+    </div>
+  {% endif %}
+
+  {% if page.websiteepic %}
+    <div class="my-2">
+      <img src="{{ site.epicicon }}" alt="Epic Games" width="20" height="20"> <a href="{{ page.websiteepic }}">Epic Games</a> <i class="bi bi-link"></i>
+    </div>
+  {% endif %}
+
+  {% if page.websitegoogle %}
+    <div class="my-2">
+      <img src="{{ site.googleicon }}" alt="Google Play" width="20" height="20"> <a href="{{ page.websitegoogle }}">Google Play</a> <i class="bi bi-link"></i>
+    </div>
+  {% endif %}
+
+  {% if page.websiteapple %}
+    <div class="my-2">
+      <img src="{{ site.appleicon }}" alt="App Store" width="20" height="20"> <a href="{{ page.websiteapple }}"> Apple App Store</a> <i class="bi bi-link"></i>
+    </div>
+  {% endif %}
+
+  {% if page.websitegithub %}
+    <div class="my-2">
+      <img src="{{ site.githubicon }}" alt="Github" width="20" height="20"> <a href="{{ page.websitegithub }}"> Github</a> <i class="bi bi-link"></i>
+    </div>
+  {% endif %}
+  </div>
+  
+  {% if page.thumbnail %}
+    <img src="{{ page.thumbnail }}" alt="thumbnail" class="img-fluid mx-auto d-block my-3">
+  {% endif %}
+
+  {% if page.tools %}
+    <ul class="list-unstyled d-flex flex-wrap gap-1 my-4">
+      <span class="p-1">Tools:</span>
+      {% for tool in page.tools %}
+        <li class="text-light bg-secondary py-1 px-2 rounded">
+          {{ tool }}
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+  <div class="mb-5">
+      {{ content
+        | replace: "<video", "<video class='img-fluid mx-auto d-block bg-dark'"
+        | replace: "<img", "<img class='img-fluid mx-auto d-block'"
+      }}
+  </div>
+
+{% if page.videopath %}
+<div class="d-flex align-items-center justify-content-between my-2">
+  <hr class="flex-grow-1 me-3">
+  <i class="bi bi-file-earmark-play-fill text-primary h1"></i>
+  <hr class="flex-grow-1 ms-3">
+</div>
+
+<video controls>
+    <source src="{{ page.videopath }}" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+{% endif %}
+
+{% if page.imgpath %}
+<div class="d-flex align-items-center justify-content-between my-2">
+  <hr class="flex-grow-1 me-3">
+  <i class="bi bi-image text-primary h1"></i>
+  <hr class="flex-grow-1 ms-3">
+</div>
+
+<div class ="image-gallery">
+  {% for file in site.static_files %}
+  {% if file.path contains page.imgpath and file.image == true %}
+    {% assign filenameparts = file.path | split: "/" %}
+      {% assign filename = filenameparts | last | replace: file.extname,"" %}
+      <div class="box"><a href="{{ file.path | relative_url }}" title="{{ filename }}">
+        <img src="{{ file.path | relative_url }} " alt="{{ filename }}" class="img-fluid mx-auto d-block img-gallery" />
+      </a></div>
+    {% endif %}
+  {% endfor %}
+</div>
+{% endif %}
+
+</div>
