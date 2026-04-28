@@ -12,6 +12,7 @@ tools:  [Unreal Engine 5, Visual Studio, Perforce, Jira/Confluence]
 permalink: "/:title/"
 imgpath: "/assets/img/off_the_grid/"
 videopath: "/assets/video/OffTheGridSteamLaunchTrailer.mp4"
+videopath_extra: "/assets/video/otg/"
 professional: true
 ---
 
@@ -53,3 +54,24 @@ The list of limbs I worked on in a major capacity(these are the internal names, 
   - Assault Drone: Spawn a companion drone that follows you and shoots at your enemies
   - Cloak Arm: Place a cloaking device that spawns a cloaking area, making you near invisible when standing still or moving slowly. Actions such as shooting interrupt the cloak for a brief amount of time.
   - Kinetic Shield: Open your arm up to activate an energy shield, blocking bullet and explosion damage.
+
+<br>
+<br>
+Below are some short clips showing the limb abilities in action:
+(If the video seems stuck try jumping forwards and back)
+
+<div class ="image-gallery">
+  {% for file in site.static_files %}
+  {% if file.path contains page.videopath_extra and file.video == true %}
+    {% assign filenameparts = file.path | split: "/" %}
+      {% assign filename = filenameparts | last | replace: file.extname,"" %}
+      <div class="box">
+        <h4 class="text-center">{{ filename }}</h4>
+          <video controls class="img-fluid mx-auto d-block img-gallery">
+            <source src="{{ file.path | relative_url }}" type="video/mp4" alt="{{ filename }}">
+              Your browser does not support the video tag.
+          </video>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>

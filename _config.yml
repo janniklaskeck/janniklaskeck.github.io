@@ -67,6 +67,10 @@ defaults:
       path: "assets/img"
     values:
       image: true
+  - scope:
+      path: "assets/video/"
+    values:
+      video: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
